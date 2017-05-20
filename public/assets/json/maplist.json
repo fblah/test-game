@@ -1,0 +1,6 @@
+{
+  "maps": [
+    { "name": "Map 1", "value": "map1" },
+    { "name": "Map 2", "value": "map2" }
+  ]
+}

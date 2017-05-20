@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+  <title>SIMPLE</title>
+</head>
+<body bgcolor="" oncontextmenu="return false;" >
+  <div id='game-container'>
+		<canvas id="loader">Your browser does not have support for canvas.</canvas>
+    <div id='game'>
+    </div>
+		<div class="" id='mainMenu' title="Main Menu">
+			<div><span id = "status"></span></div>
+			<div>Hostname: <span id = "hostname"></span></div>
+			<div id="main">
+				<ul>
+					<li><button id="bSP">Single Player</button></li>
+					<li><button id="bMP">Multi Player</button></li>
+					<li><button id="bSet">Settings</button></li>
+					<li><button id="bHelp">Help</button></li>
+				</ul>
+			</div>
+			<div id="single">
+				<ul>
+					<li><button id="bSNG">New Game</button></li>
+					<li><button id="bSLG">Load Game</button></li>
+					<li><button id="bSB">Back</button></li>
+				</ul>
+			</div>
+			<div id="multi">
+				<ul>
+					<li><button id="bMJ">Join</button></li>
+					<li><button id="bMC">Create</button></li>
+					<li><button id="bMB">Back</button></li>
+				</ul>
+			</div>
+
+			<div id="join">
+				<button id="bJR">Refresh</button>
+				<ul id='server-list'>
+
+        </ul>
+				<button id="bJB">Back</button>
+			</div>
+
+			<div id="room">
+				<form id = "roomDetails" >
+	        Server Name   <input type = "text" id = "roomName" name = "serverNameText" value = "myRoom" placeholder = "" >
+	        <br/>Game Time  <input type = "text" id = "gameTime" name = "gameTime" placeholder = "" >
+	        <br/>Planning Time  <input type = "number" id = "planningTime" name = "planningTime" placeholder = "" >
+	        <br/>Execution Time  <input type = "number" id = "executionTime" name = "executionTime" placeholder = "" >
+	        <br/>Budget  <input type = "number" id = "budget" name = "budget" placeholder = "">
+	        <br/>Map Name
+	        <select>
+	        <option value="map1">Map 1</option>
+	        <option value="map2">Map 2</option>
+	        <option value="map3">Map 3</option>
+	        </select>
+	      </form>
+				<p id = "chatArea">   </p>
+				<textarea rows="1" cols="40" id = "chatMessage"> </textarea>
+        <input type = "button" id = "bChat" value="Send">
+				<br/><button id="bCB">Back</button>
+			</div>
+
+			<div id="settings">
+				<button id="bSetB">Back</button>
+			</div>
+			<div id="help">
+				<button id="bHB">Back</button>
+			</div>
+		</div>
+		<div class="" id='pauseMenu'>
+			ammmmmmm
+		</div>
+		<div class="" id='endMenu'>
+			ammmmmmm
+		</div>
+  </div>
+	<script type="text/javascript" src="bin/loader.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+#game-container{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border:20px solid #C03922;
+    background-color:#FFC413;
+    -webkit-box-shadow: #E58B18 5px 5px 5px;
+    -moz-box-shadow: #E58B18 5px 5px 5px;
+     box-shadow: #E58B18 5px 5px 5px;
+     width:1280px;
+     height:720px;
+    margin:0 auto;
+}
+#chatArea {
+  width: 346px;
+  height: 220px;
+  background-color: #fff;
+  color: #000;
+  overflow:scroll;
+  overflow-wrap: break-word;
+}
+#game{
+    visibility: visible;;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+body{
+    background: #FFC413;
+}
+
+.ui-widget-content {
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 2147483647 !important;
+}
+
+.ui-widget-header {
+    border: none;
+    background: none;
+}
+
+:-webkit-full-screen {
+    z-index: 2147483646 !important;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.squad-selection {
+    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.squad-selection ul {
+    list-style-type: none;
+    display: initial;
+
+}
+
+.squad-selection ul li {
+    display: inline;
+    float: left;
+    
+}
+
+.character-card {
+    width: 175px;
+    height: 300px;	
+	background: #555;	
+    margin: 2px 2px;		
+    cursor: pointer;
+    border: 3px solid red;
+}
+
+.character-card:hover {    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 15px rgba(255, 255, 0, 0.8);
+}
+
+.character-card-active {
+    border: 3px solid green;
+}
+
+.character-card-inactive {
+     box-shadow:none;
+     cursor: default;
+}
+.character-card-inactive:hover {
+     box-shadow:none;
+     cursor: default;
+}
+.characters {
+    overflow-y: scroll;
+    overflow-x: auto;
+    height: 450px;
+}
+.character-card input[type=checkbox]{
+    visibility: hidden;
+}
+

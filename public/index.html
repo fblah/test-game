@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+  <title>SIMPLE</title>
+</head>
+<body bgcolor="" oncontextmenu="return false;" >
+  <div id='game-container'>
+		<canvas id="loader">Your browser does not have support for canvas.</canvas>
+    <div id='game'>
+    </div>
+		<div class="" id='mainMenu' title="Main Menu" style="display:none">
+			<div><span id = "status"></span></div>
+			<div>Hostname: <span id = "hostname"></span></div>
+			<div>Nick: <span id = "alias"></span></div>
+			<div>Private<input type="checkbox" id="private"></div>
+			<div id="main">
+				<ul>
+					<li><button id="bSP">Single Player</button></li>
+					<li><button id="bMP">Multi Player</button></li>
+					<li><button id="bSet">Settings</button></li>
+					<li><button id="bHelp">Help</button></li>
+					<li><button id="bCre">Credits</button></li>
+				</ul>
+			</div>
+			<div id="single">
+				<ul>
+					<li><button id="bSNG">New Game</button></li>
+					<li><button id="bSLG">Load Game</button></li>
+					<li><button id="bSB">Back</button></li>
+				</ul>
+			</div>
+			<div id="multi">
+				<ul>
+					<li><button id="bMJ">Join</button></li>
+					<li><button id="bMC">Create</button></li>
+					<li><button id="bMB">Back</button></li>
+					<li>Manual connection<input type = "text" id = "connectToID" placeholder = "id" /><button id="bMMC">Connect</button></li>
+				</ul>
+			</div>
+
+			<div id="join">
+				<button id="bJR">Refresh</button>
+				<ul id='server-list'>
+                </ul>
+				<button id="bJB">Back</button>
+			</div>
+
+			<div id="room">
+                <div id="roomContent">
+                    <table>
+                        <tr>
+                            <td width="380px" valign="top">
+                                Ready <input type="checkbox" id="readyToPlay"><br />
+                                <form id="roomDetails">
+                                    Server Name   <input type="text" id="roomName" name="serverNameText" value="myRoom" placeholder="" />
+                                    <br />Game Time (min) <input type="number" id="gameTime" name="gameTime" value="6" placeholder="" min="5" max="30" step="0.5"/>
+                                    <br />Planning Time (s) <input type="number" id="planningTime" name="planningTime" value="50" placeholder="" min="45" max="90" step="1" />
+                                    <br />Execution Time (s) <input type="number" id="executionTime" name="executionTime" value="40" placeholder="" min="30" max="60" step="1" />
+                                    <br />Budget  <input type="number" id="budget" name="budget" value="35" placeholder="" min="30" max="1000"/>
+                                    <br />Map Name
+                                    <select id="mapName" name="map"></select>
+                                </form>
+                                <div id='players'>
+                                </div>
+
+                                <br /><div id="chatArea">   </div>
+                                <br /><textarea rows="1" cols="40" id="chatMessage"> </textarea>
+                                <input type="button" id="bChat" value="Send">
+                                <br />
+                            </td>
+                            <td valign="top" style="width:99%">
+								<div class="squad-selection">
+									<b>Squad Selection: </b><br/>Total Cost: <i id = "totalCost"> </i>
+									<div class="characters">
+										<ul id = "characterList">
+
+										</ul>
+									</div>									
+								</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>                
+                <button id="bCB">Back</button>
+			</div>
+
+			<div id="settings">
+				<button id="bSetB">Back</button>
+			</div>
+			<div id="help">
+				<button id="bHB">Back</button>
+			</div>
+			<div id="credits">
+				<div> Ajit D'Monte|Romey Christo|Joish Bosco|John Lohith</div>
+				<button id="bCreB">Back</button>
+			</div>
+		</div>
+		<div class="" id='pauseMenu'>
+			ammmmmmm
+		</div>
+		<div class="" id='endMenu'>
+			ammmmmmm
+		</div>
+  </div>
+	<script type="text/javascript" src="bin/loader.js"></script>
+</body>
+</html>

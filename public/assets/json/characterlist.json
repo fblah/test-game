@@ -1,0 +1,93 @@
+{
+  "characters": [
+    {
+      "fname"          :  "Intelligent",
+      "lname"          :  "Dude",
+      "gender"         :  0,
+      "hp"             :  600,
+      "ap"             :  40,
+      "accuracy"       :  600,
+      "strength"       :  350,
+      "stamina"        :  650,
+      "intelligence"   :  95,
+      "luck"           :  50,
+      "speed"          :  40,
+      "teamwork"       :  90,
+      "aggressiveness" :  30,
+      "cost"           :  10,
+      "id"             :  1
+    },
+
+    {
+      "fname"          :  "Strong",
+      "lname"          :  "Dude",
+      "gender"         :  0,
+      "hp"             :  850,
+      "ap"             :  60,
+      "accuracy"       :  450,
+      "strength"       :  950,
+      "stamina"        :  450,
+      "intelligence"   :  35,
+      "luck"           :  50,
+      "speed"          :  30,
+      "teamwork"       :  60,
+      "aggressiveness" :  85,
+      "cost"           :  10,
+      "id"             :  2
+    },
+
+    {
+      "fname"          :  "Fast",
+      "lname"          :  "Chick",
+      "gender"         :  1,
+      "hp"             :  550,
+      "ap"             :  50,
+      "accuracy"       :  650,
+      "strength"       :  350,
+      "stamina"        :  700,
+      "intelligence"   :  60,
+      "luck"           :  50,
+      "speed"          :  100,
+      "teamwork"       :  70,
+      "aggressiveness" :  40,
+      "cost"           :  10,
+      "id"             :  3
+    },
+
+    {
+      "fname"          :  "Accurate",
+      "lname"          :  "Chick",
+      "gender"         :  0,
+      "hp"             :  500,
+      "ap"             :  60,
+      "accuracy"       :  900,
+      "strength"       :  450,
+      "stamina"        :  450,
+      "intelligence"   :  35,
+      "luck"           :  70,
+      "speed"          :  80,
+      "teamwork"       :  60,
+      "aggressiveness" :  45,
+      "cost"           :  10,
+      "id"             :  4
+    },
+
+    {
+      "fname"          :  "Big",
+      "lname"          :  "Kak00se",
+      "gender"         :  0,
+      "hp"             :  500,
+      "ap"             :  60,
+      "accuracy"       :  900,
+      "strength"       :  450,
+      "stamina"        :  450,
+      "intelligence"   :  35,
+      "luck"           :  70,
+      "speed"          :  80,
+      "teamwork"       :  60,
+      "aggressiveness" :  45,
+      "cost"           :  10,
+      "id"             :  5
+    }
+  ]
+}
